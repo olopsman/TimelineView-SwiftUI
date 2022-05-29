@@ -11,6 +11,10 @@
 		BE8F480C28436E3F00DE6DD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F480B28436E3F00DE6DD0 /* ContentView.swift */; };
 		BE8F480E28436E4000DE6DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8F480D28436E4000DE6DD0 /* Assets.xcassets */; };
 		BE8F481128436E4000DE6DD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8F481028436E4000DE6DD0 /* Preview Assets.xcassets */; };
+		BE8F48182843713F00DE6DD0 /* CustomSchedulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F48172843713F00DE6DD0 /* CustomSchedulerView.swift */; };
+		BE8F481A284371E500DE6DD0 /* PeriodicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F4819284371E500DE6DD0 /* PeriodicView.swift */; };
+		BE8F481C2843770D00DE6DD0 /* AnimationSecondsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F481B2843770D00DE6DD0 /* AnimationSecondsView.swift */; };
+		BE8F481E2843798800DE6DD0 /* AnimationPauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F481D2843798800DE6DD0 /* AnimationPauseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		BE8F480B28436E3F00DE6DD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE8F480D28436E4000DE6DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE8F481028436E4000DE6DD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE8F48172843713F00DE6DD0 /* CustomSchedulerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSchedulerView.swift; sourceTree = "<group>"; };
+		BE8F4819284371E500DE6DD0 /* PeriodicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicView.swift; sourceTree = "<group>"; };
+		BE8F481B2843770D00DE6DD0 /* AnimationSecondsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSecondsView.swift; sourceTree = "<group>"; };
+		BE8F481D2843798800DE6DD0 /* AnimationPauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPauseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				BE8F480928436E3F00DE6DD0 /* TimelineViewApp.swift */,
 				BE8F480B28436E3F00DE6DD0 /* ContentView.swift */,
+				BE8F481B2843770D00DE6DD0 /* AnimationSecondsView.swift */,
+				BE8F48172843713F00DE6DD0 /* CustomSchedulerView.swift */,
+				BE8F4819284371E500DE6DD0 /* PeriodicView.swift */,
+				BE8F481D2843798800DE6DD0 /* AnimationPauseView.swift */,
 				BE8F480D28436E4000DE6DD0 /* Assets.xcassets */,
 				BE8F480F28436E4000DE6DD0 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8F481A284371E500DE6DD0 /* PeriodicView.swift in Sources */,
+				BE8F48182843713F00DE6DD0 /* CustomSchedulerView.swift in Sources */,
+				BE8F481C2843770D00DE6DD0 /* AnimationSecondsView.swift in Sources */,
 				BE8F480C28436E3F00DE6DD0 /* ContentView.swift in Sources */,
+				BE8F481E2843798800DE6DD0 /* AnimationPauseView.swift in Sources */,
 				BE8F480A28436E3F00DE6DD0 /* TimelineViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

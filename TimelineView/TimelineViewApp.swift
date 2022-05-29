@@ -11,7 +11,28 @@ import SwiftUI
 struct TimelineViewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                ContentView()
+                    .tabItem {
+                        Text("Animation")
+                    }
+                AnimationPauseView()
+                    .tabItem {
+                        Text("Pause")
+                    }
+                AnimationSecondsView()
+                    .tabItem {
+                        Text("Cadence")
+                    }
+                PeriodicView()
+                    .tabItem {
+                        Text("Periodic")
+                    }
+                CustomSchedulerView()
+                    .tabItem {
+                        Text("Scheduler")
+                    }
+            }
         }
     }
 }
