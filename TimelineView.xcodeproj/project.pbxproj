@@ -15,6 +15,7 @@
 		BE8F481A284371E500DE6DD0 /* PeriodicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F4819284371E500DE6DD0 /* PeriodicView.swift */; };
 		BE8F481C2843770D00DE6DD0 /* AnimationSecondsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F481B2843770D00DE6DD0 /* AnimationSecondsView.swift */; };
 		BE8F481E2843798800DE6DD0 /* AnimationPauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8F481D2843798800DE6DD0 /* AnimationPauseView.swift */; };
+		BEA7A8652844C50D004E6285 /* PeriodIc2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA7A8642844C50D004E6285 /* PeriodIc2View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		BE8F4819284371E500DE6DD0 /* PeriodicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodicView.swift; sourceTree = "<group>"; };
 		BE8F481B2843770D00DE6DD0 /* AnimationSecondsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationSecondsView.swift; sourceTree = "<group>"; };
 		BE8F481D2843798800DE6DD0 /* AnimationPauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationPauseView.swift; sourceTree = "<group>"; };
+		BEA7A8642844C50D004E6285 /* PeriodIc2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodIc2View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				BE8F481D2843798800DE6DD0 /* AnimationPauseView.swift */,
 				BE8F480D28436E4000DE6DD0 /* Assets.xcassets */,
 				BE8F480F28436E4000DE6DD0 /* Preview Content */,
+				BEA7A8642844C50D004E6285 /* PeriodIc2View.swift */,
 			);
 			path = TimelineView;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 				BE8F481C2843770D00DE6DD0 /* AnimationSecondsView.swift in Sources */,
 				BE8F480C28436E3F00DE6DD0 /* ContentView.swift in Sources */,
 				BE8F481E2843798800DE6DD0 /* AnimationPauseView.swift in Sources */,
+				BEA7A8652844C50D004E6285 /* PeriodIc2View.swift in Sources */,
 				BE8F480A28436E3F00DE6DD0 /* TimelineViewApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

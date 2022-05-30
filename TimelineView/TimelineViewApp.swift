@@ -28,6 +28,10 @@ struct TimelineViewApp: App {
                     .tabItem {
                         Text("Periodic")
                     }
+                PeriodIc2View()
+                    .tabItem {
+                        Text("Periodic 2")
+                    }
                 CustomSchedulerView()
                     .tabItem {
                         Text("Scheduler")
